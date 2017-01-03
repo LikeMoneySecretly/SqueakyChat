@@ -1,2 +1,2 @@
 # SqueakyChat
-An efficient chat plugin that prevents swearing.
+An efficient Bukkit plugin for that prevents swearing.
