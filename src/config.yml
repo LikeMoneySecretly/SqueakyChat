@@ -1,0 +1,15 @@
+# "censor" is the string of text that will replace a swear word in the chat
+censor: '*****'
+blacklist:
+- fuck
+- fucking
+- bitch
+- shit
+- ass
+- whore
+- slut
+- pussy
+- penis
+- damn
+- goddamn
+- nigger
