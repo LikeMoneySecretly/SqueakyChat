@@ -1,15 +1,20 @@
 name: SqueakyChat
-version: 1.0
+version: 1.1
 main: com.its0as0.squeakychat.SqueakyChat
-description: A very efficient chat plugin that prevents swearing, and chat flooding.
+description: Keep your chat squeaky clean of swear words!
+author: 0AndrewShepherd0
+website: https://dev.bukkit.org/projects/squeakychat
 
 commands:
     squeakychat:
-        usage: /<command>
+        usage: Syntax error! Perhaps you meant /<command>
         description: Returns the list of possible commands.
     scsetbleep:
-        usage: /<command>
+        usage: Syntax error! Perhaps you meant /<command> message?
         description: Changes string that replaces a swear word.
+    screload:
+        usage: Syntax error! Perhaps you meant /<command> message?
+        description: Reloads the config.
         
 permissions:
     squeakychat:
@@ -17,4 +22,7 @@ permissions:
         default: true
     squeakychat.setbleep:
         description: Set the censor bleep.
+        default: op
+    squeakychat.reload:
+        description: Reload the config.
         default: op

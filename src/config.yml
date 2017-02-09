@@ -1,9 +1,14 @@
-# "censor" is the string of text that will replace a swear word in the chat
+warning:
+  enabled: true
+  message: '&cUsage of profanity is not prohibited on this server!'
+alert-console:
+  enabled: true
 censor: '*****'
 blacklist:
 - fuck
 - fucking
 - bitch
+- bitches
 - shit
 - ass
 - whore
